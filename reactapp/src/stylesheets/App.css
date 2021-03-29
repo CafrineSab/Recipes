@@ -1,0 +1,194 @@
+body {
+  background-color: #FDFDF5;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+  background-color: #8b4513;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-li {
+  font-size: 20px;
+  list-style-type: none;
+  font-weight: bolder;
+  margin: 20px;
+  color: #FDFDF5;
+}
+
+.header-img {
+  width: 100px;
+}
+
+.footer {
+  padding: 20px;
+  height: 100px;
+  background-color: #25221e;
+  color: #FDFDF5;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('../assets/saumon_echalote.jpeg');
+  height: 60vh;
+  width: auto;
+}
+
+.banner-text {
+  color: #8b4513;
+  height: 200px;
+  width: 700px;
+  border: 1px solid white;
+  background-color: white;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.t-banner {
+  padding-top: 20px;
+}
+
+/*Myaccount*/
+.main {
+  width: 80%;
+}
+
+/*Homepage*/
+.homepage-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-quest {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+
+.title-process {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title-connect {
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.title-connect a {
+  color: #8b4513;
+}
+
+.buttons-hp {
+  display: flex;
+  justify-content: center;
+}
+
+.button-recipe {
+  background-color: #F8C29F;
+  width: 100%;
+  height: 50px;
+  border-radius: 22px;
+  margin: 20px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #303036;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: solid 1px #303036;
+  text-align: center;
+}
+
+.addrecipe {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-addrecipe {
+  text-align: center;
+  margin: 20px;
+  font-size: 24px;
+  color: #8b4513;
+  font-weight: bold;
+  border-top: 2px solid grey;
+  width: 60%;
+  padding: 30px;
+}
+
+.addrecipe-form {
+  width: 30%;
+  margin: 30px;
+}
+
+/*Logpage*/
+
+.logpage {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.sign-in {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.sign-up {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+
+.text-err{
+  color: red;
+  font-size: 12px;
+}
+
+/*Myaccount*/
+.text-process {
+  font-size: 17px;
+  text-align: left;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 100ù;
+}
+
+.recipe{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
